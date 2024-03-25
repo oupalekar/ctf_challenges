@@ -3,12 +3,10 @@
 ## Story Line
 
 ## Setup
-in order to ensure that you have all the necessary libraries installed, please run 
+in order to ensure that you have all the necessary libraries installed, please run the following code block locally.
 ```
 pip install -r requirements.txt
 ```
-locally.
-
 
 Alternatively, you may run
 ```

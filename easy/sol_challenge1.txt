@@ -1,0 +1,4 @@
+Ciphertext: qcbufohizohwcbg mci vojs qfoqysr hvs twfgh qwdvsf
+Plaintext: congratulations you have cracked the first cipher
+
+Key: rot12

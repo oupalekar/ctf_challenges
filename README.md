@@ -15,4 +15,4 @@ pip3 install -r requirements.txt
 depending on you coding environment.
 
 ## Handbook
-We have included a file with some functions and definitions that you may find useful in order to solve some of these challenges [here]([https://pages.github.com/](https://github.com/oupalekar/crypto_challenges/blob/main/handbook/useful_functions_and_definitions)https://github.com/oupalekar/crypto_challenges/blob/main/handbook/useful_functions_and_definitions).
+We have included a file with some functions and definitions that you may find useful in order to solve some of these challenges [here](/handbook/useful_functions_and_definitions).

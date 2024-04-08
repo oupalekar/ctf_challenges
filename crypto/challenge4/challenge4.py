@@ -27,4 +27,14 @@ key = token_bytes(8)
 # # The code essentially reads an image file ("flag.png"), generates a random cryptographic key,
 # # encrypts the image using XOR, and then saves the encrypted data to a new file ("cipher.bin").
 ciphertext = open('cipher.bin', 'rb').read()
-print(len(ciphertext))
+
+out = b""
+for i in [137, 80, 78, 71, 13, 10, 26, 10]:
+    out += int(i).to_bytes(1, 'little')
+# print(out)
+mid = XOR(ciphertext, out)[:8]
+# print(mid)
+open("flag_new.png", 'wb').write(XOR(ciphertext, mid))
+
+
+# print(len(ciphertext))

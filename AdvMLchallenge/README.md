@@ -1,0 +1,3 @@
+Adversarial images are images that have pixels intentionally perturbed to confuse and deceive models but at the same time, look harmless and innocent to humans. An adversarial attack embeds a noise vector in the input image. This noise vector is purposely constructed to fool and confuse deep learning models. Your task is to implement the fast-gradient-sign-method attack (https://medium.com/@zachariaharungeorge/a-deep-dive-into-the-fast-gradient-sign-method-611826e34865) to induce the pretrained model to misclassify the panda image.
+
+You might find the torch.Tensor class useful: https://pytorch.org/docs/stable/tensors.html#tensor-class-reference

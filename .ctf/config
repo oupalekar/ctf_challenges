@@ -1,6 +1,11 @@
 [config]
-url = icssp.ctfd.io
+url = https://icssp.ctfd.io
 access_token = ctfd_1b33948a3c3d5ea3c1c3b7f6852dd85042cd2baa02400d22a107938b5f00bc30
 
 [challenges]
+crypto = crypto
+crypto/easy/challenge1 = crypto/easy/challenge1
+crypto/challenge1 = crypto/challenge1
+. = .
+Rev/rev1/ = Rev/rev1/
 
